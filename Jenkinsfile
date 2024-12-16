@@ -3,8 +3,8 @@
 // Demo CI
 // Version: v1.x
 //========================================================================
-@Library('jenkins-devops-ci@main') _
-itemsService script: this
+// @Library('jenkins-devops-ci@main') _
+// itemsService script: this
 //========================================================================
 // DO NOT MODIFY AFTER THESE LINES.
 //=========================================================================
