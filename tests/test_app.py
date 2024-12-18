@@ -17,7 +17,7 @@ def test_get_items(client):
     assert response.get_json() == []
 
 def test_create_item(client):
-    response = client.post('/items', json={'id': 1, 'name': 'Test Item'})
+    response = client.post('/items', json={'id': 1, 'name lona': 'Test Item'})
     assert response.status_code == 201
     assert response.get_json() == {'id': 1, 'name': 'Test Item'}
 
